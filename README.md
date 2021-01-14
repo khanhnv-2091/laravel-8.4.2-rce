@@ -1,5 +1,15 @@
 # laravel-8.4.2-rce
 
+## Setup enviroment
+```bash
+git clone https://github.com/laravel/laravel.git
+cd laravel
+git checkout e849812
+composer install
+composer require facade/ignition==2.5.1
+php artisan serve
+```
+
 ## Usage
 
 ```bash
